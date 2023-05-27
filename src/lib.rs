@@ -32,7 +32,7 @@ pub fn app() -> Html
             <h1 class={my_class}>{"Hello World!"}</h1>
             if my_class == "my_title"
             {
-            <p>{"Hi there!"}</p>
+                <p>{"Hi there!"}</p>
             }
             else
             {

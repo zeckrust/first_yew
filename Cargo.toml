@@ -1,0 +1,15 @@
+# Yew start server command: trunk serve
+# Rust compile command: rustc file.rs
+# Rust run command: cargo run
+
+
+[package]
+name = "first_yew"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+yew = "0.19.3"
+gloo = "0.8.0"
+serde = "1.0.136"
+serde_json = "1.0.79"

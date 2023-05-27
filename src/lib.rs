@@ -3,8 +3,6 @@ use yew::prelude::*;
 use gloo::console::log;
 
 #[derive(Serialize, Deserialize)]
-
-
 struct MyObject
 {
     username: String,
